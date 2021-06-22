@@ -1,4 +1,4 @@
-# MATLAB/ROS repository for DTU-AUT's course 31390 - Unmanned Autonomous Systems
+# MATLAB/ROS repository for the demo day of course 31390 - Unmanned Autonomous Systems
 
 Date: June 2021
 
@@ -34,5 +34,5 @@ Date: June 2021
   * Clone repository:
     * Open a terminal (or on Windows, open Git Bash) and type:
     ````
-    git clone https://github.com/DavidWuthier/uas-31390.git
+    git clone https://github.com/DavidWuthier/uas-demo-day.git
     ````
