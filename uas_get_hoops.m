@@ -8,7 +8,7 @@ clc
 
 out = sim('uas_hoops.slx');
 
-%% Extract positions and directions
+% Extract positions and directions
 
 p_h = mean(out.hoop_positions.Data(:,:,end-10:end), 3);
 

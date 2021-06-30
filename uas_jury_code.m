@@ -10,8 +10,8 @@ load('cf18-2021-06-22-15-50.mat')
 
 %% Extract positions and directions
 
-w1 = [1 ; -2 ; 1];
-w2 = [2 ; -2 ; 1];
+w1 = [0 ; -2 ; 1];
+w2 = [1 ; -2 ; 1];
 
 t = out.position.t.Data;
 x = out.position.X.Data - w1(1);
@@ -31,7 +31,7 @@ Xo = [xo xo];
 figure
 grid on
 hold all
-ylim(3*[-el el])
+ylim(10*[-el el])
 
 plot(t, e, 'Color', [0.5 0.5 0.5], 'LineWidth', 2)
 plot(t, x, 'r', 'LineWidth', 2)
